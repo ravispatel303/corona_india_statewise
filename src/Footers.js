@@ -8,7 +8,7 @@ const Footers = () => {
 	  <Card.Body>
 	    <Card.Title>Developed By:</Card.Title>
 	    <Card.Text>
-	      <a href='https://github.com/ravispatel303' target='blank' className="text-decoration-none">Ravi Patel</a>
+	      <a href='https://github.com/ravispatel303/corona_india_statewise' target='blank' className="text-decoration-none">Ravi Patel</a>
 	    </Card.Text>
 	  </Card.Body>
 	</Card>
