@@ -96,7 +96,7 @@ class App extends Component{
       <Scroll>     
       <Container className='py-5'>
         <Alert key='time' variant='info'>
-    Last Updated on: 8th April 2020, 5:00 PM IST
+    Last Updated on: 09 April 2020, 17:00 GMT+5:30
   </Alert>
       <ErrorBoundry>
        <Tables data={filteredRobots} sortBy={this.sortBy}/>
