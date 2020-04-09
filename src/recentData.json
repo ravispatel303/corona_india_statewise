@@ -1,0 +1,226 @@
+[
+  {
+    "States": "Andaman and Nicobar Islands",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 10,
+    "Total Deaths": 0
+  },
+  {
+    "States": "Andhra Pradesh",
+    "New Cases": 79,
+    "New Deaths": 1,
+    "Total Cases": 305,
+    "Total Deaths": 4
+  },
+  {
+    "States": "Arunachal Pradesh",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 1,
+    "Total Deaths": 0
+  },
+  {
+    "States": "Assam",
+    "New Cases": 1,
+    "New Deaths": 0,
+    "Total Cases": 27,
+    "Total Deaths": 0
+  },
+  {
+    "States": "Bihar",
+    "New Cases": 6,
+    "New Deaths": 0,
+    "Total Cases": 38,
+    "Total Deaths": 1
+  },
+  {
+    "States": "Chandigarh",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 18,
+    "Total Deaths": 0
+  },
+  {
+    "States": "Chhattisgarh",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 10,
+    "Total Deaths": 0
+  },
+  {
+    "States": "Delhi",
+    "New Cases": 0,
+    "New Deaths": 2,
+    "Total Cases": 576,
+    "Total Deaths": 9
+  },
+  {
+    "States": "Goa",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 7,
+    "Total Deaths": 0
+  },
+  {
+    "States": "Gujarat",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 165,
+    "Total Deaths": 13
+  },
+  {
+    "States": "Haryana",
+    "New Cases": 57,
+    "New Deaths": 2,
+    "Total Cases": 147,
+    "Total Deaths": 3
+  },
+  {
+    "States": "Himachal Pradesh",
+    "New Cases": 5,
+    "New Deaths": 0,
+    "Total Cases": 18,
+    "Total Deaths": 1
+  },
+  {
+    "States": "Jammu and Kashmir",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 116,
+    "Total Deaths": 2
+  },
+  {
+    "States": "Jharkhand",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 4,
+    "Total Deaths": 0
+  },
+  {
+    "States": "Karnataka",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 175,
+    "Total Deaths": 4
+  },
+  {
+    "States": "Kerala",
+    "New Cases": 9,
+    "New Deaths": 0,
+    "Total Cases": 336,
+    "Total Deaths": 2
+  },
+  {
+    "States": "Ladakh",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 14,
+    "Total Deaths": 0
+  },
+  {
+    "States": "Madhya Pradesh",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 229,
+    "Total Deaths": 13
+  },
+  {
+    "States": "Maharashtra",
+    "New Cases": 150,
+    "New Deaths": 16,
+    "Total Cases": 1018,
+    "Total Deaths": 64
+  },
+  {
+    "States": "Manipur",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 2,
+    "Total Deaths": 0
+  },
+  {
+    "States": "Mizoram",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 1,
+    "Total Deaths": 0
+  },
+  {
+    "States": "Odisha",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 42,
+    "Total Deaths": 1
+  },
+  {
+    "States": "Puducherry",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 5,
+    "Total Deaths": 0
+  },
+  {
+    "States": "Punjab",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 91,
+    "Total Deaths": 7
+  },
+  {
+    "States": "Rajasthan",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 328,
+    "Total Deaths": 3
+  },
+  {
+    "States": "Tamil Nadu",
+    "New Cases": 69,
+    "New Deaths": 2,
+    "Total Cases": 690,
+    "Total Deaths": 7
+  },
+  {
+    "States": "Telangana",
+    "New Cases": 63,
+    "New Deaths": 0,
+    "Total Cases": 427,
+    "Total Deaths": 7
+  },
+  {
+    "States": "Tripura",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 1,
+    "Total Deaths": 0
+  },
+  {
+    "States": "Uttarakhand",
+    "New Cases": 0,
+    "New Deaths": 0,
+    "Total Cases": 31,
+    "Total Deaths": 0
+  },
+  {
+    "States": "Uttar Pradesh",
+    "New Cases": 38,
+    "New Deaths": 0,
+    "Total Cases": 343,
+    "Total Deaths": 3
+  },
+  {
+    "States": "West Bengal",
+    "New Cases": 8,
+    "New Deaths": 2,
+    "Total Cases": 99,
+    "Total Deaths": 5
+  },
+  {
+    "States": "Total",
+    "New Cases": 485,
+    "New Deaths": 25,
+    "Total Cases": 5274,
+    "Total Deaths": 149
+  }
+]
