@@ -39,10 +39,8 @@
   }
 }
 
-.Center{
-  margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 300px; 
-  padding-right: 300px;
+.Jumbotron{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
 }
