@@ -8,7 +8,7 @@ const Headers = (props) => {
 	return(
 	
         <Navbar bg="dark" variant="dark" expand='lg' >
-			<Navbar.Brand href="#" ><p className='container-fluid'><img src={logo} alt="logo"/> COVID-19 Statewise Cases in INDIA</p></Navbar.Brand>
+			<Navbar.Brand href="https://coronainindia.netlify.com/" ><p className='container-fluid'><img src={logo} alt="logo"/> COVID-19 Statewise Cases in INDIA</p></Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />			
 			<Navbar.Collapse id="basic-navbar-nav">
 			    <Nav className="mr-auto"></Nav>
