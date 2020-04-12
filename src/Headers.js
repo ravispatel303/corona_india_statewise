@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Form, Button, FormControl, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, Form, FormControl } from 'react-bootstrap';
 import logo from './corona.gif';
 // import SearchBox from './SearchBox';
  

@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import { Button, Table } from 'react-bootstrap';
-import data from './recentData.json';
+// import data from './recentData.json';
 import './Tables.css';
 
 class Tables extends Component{
 	constructor(props){
 		super(props);
-		this.state = {
-			data: data,
-		}
+		// this.state = {
+		// 	data: data,
+		// }
 		// this.getKeys = this.getKeys.bind(this);
 		this.getHeader = this.getHeader.bind(this);
 		this.getRows = this.getRows.bind(this);

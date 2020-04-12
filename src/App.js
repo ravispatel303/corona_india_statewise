@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import data from './recentData.json';
-import { time } from './time.json';
+// import data from './recentData.json';
+// import { time } from './time.json';
 import Tables from './Tables';
 // import logo from './logo.svg';
 import './App.css';
-import { Card, Navbar, Nav, Form, FormControl, Button, Container, Alert } from 'react-bootstrap';
+import { Container, Alert } from 'react-bootstrap';
 import Footers from './Footers';
 import Headers from './Headers';
 import Scroll from './Scroll';
@@ -16,7 +16,8 @@ class App extends Component{
   constructor() {
     super();
     this.state = {
-      data: data,
+      data: [],
+      times: [],
       searchfield: '',
       direction: {
         'States': 'asc',
@@ -28,6 +29,17 @@ class App extends Component{
     }
     this.sortBy = this.sortBy.bind(this)
     // this.onSearchChange = this.onSearchChange.bind(this)
+
+  }
+
+   componentDidMount() {
+    fetch('http://coronaindi.herokuapp.com/flask/data')
+    .then(response => response.json())
+    .then(users => this.setState({ data: users}))
+    fetch('http://coronaindi.herokuapp.com/flask/time')
+    .then(response => response.json())
+    .then(users => this.setState({ times: users}))
+
   }
 
   onSearchChange = (event) => {
@@ -37,6 +49,7 @@ class App extends Component{
 
   sortBy = (key) => {
     // console.log(this.state.direction)
+    const { data } = this.state;
     if(key === 'States'){
       this.state.direction[key] === 'asc'
       ?this.setState({
@@ -84,12 +97,10 @@ class App extends Component{
   }
 
   render() {
-
     const { data, searchfield } = this.state;
     const filteredRobots = data.filter(dat => {
       return dat.States.toLowerCase().includes(searchfield.toLowerCase())
     })
-
 
     return (
     <div className="Jumbotron">
@@ -97,7 +108,7 @@ class App extends Component{
       <Scroll>     
       <Container className='py-5'>
         <Alert key='time' variant='info'>
-    Last Updated on: { time } GMT+5:30
+    Last Updated on: { this.state.times.time } GMT+5:30
   </Alert>
       <ErrorBoundry>
        <Tables data={filteredRobots} sortBy={this.sortBy}/>
