@@ -33,10 +33,10 @@ class App extends Component{
   }
 
    componentDidMount() {
-    fetch('https://coronaindi.herokuapp.com/flask/data')
+    fetch('http://coronaindi.herokuapp.com/flask/data')
     .then(response => response.json())
     .then(users => this.setState({ data: users}))
-    fetch('https://coronaindi.herokuapp.com/flask/time')
+    fetch('http://coronaindi.herokuapp.com/flask/time')
     .then(response => response.json())
     .then(users => this.setState({ times: users}))
 
@@ -102,22 +102,26 @@ class App extends Component{
       return dat.States.toLowerCase().includes(searchfield.toLowerCase())
     })
 
+    if(!data.length){
+      return <h1>Loading...</h1>
+    }else{
     return (
-    <div className="Jumbotron">
-      <Headers searchChange={this.onSearchChange}/>
-      <Scroll>     
-      <Container className='py-5'>
-        <Alert key='time' variant='info'>
-    Last Updated on: { this.state.times.time } GMT+5:30
-  </Alert>
-      <ErrorBoundry>
-       <Tables data={filteredRobots} sortBy={this.sortBy}/>
-      </ErrorBoundry>
-      </Container>
-      </Scroll>
-      <Footers/>
-    </div>
-    );  
+      <div className="Jumbotron">
+        <Headers searchChange={this.onSearchChange}/>
+        <Scroll>     
+        <Container className='py-5'>
+          <Alert key='time' variant='info'>
+      Last Updated on: { this.state.times.time } GMT+5:30
+    </Alert>
+        <ErrorBoundry>
+         <Tables data={filteredRobots} sortBy={this.sortBy}/>
+        </ErrorBoundry>
+        </Container>
+        </Scroll>
+        <Footers/>
+      </div>
+      );  
+    }  
   }
 
 }
