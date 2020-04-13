@@ -33,10 +33,10 @@ class App extends Component{
   }
 
    componentDidMount() {
-    fetch('http://coronaindi.herokuapp.com/flask/data')
+    fetch('https://coronaindi.herokuapp.com/flask/data')
     .then(response => response.json())
     .then(users => this.setState({ data: users}))
-    fetch('http://coronaindi.herokuapp.com/flask/time')
+    fetch('https://coronaindi.herokuapp.com/flask/time')
     .then(response => response.json())
     .then(users => this.setState({ times: users}))
 
