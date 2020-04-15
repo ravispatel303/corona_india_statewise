@@ -39,6 +39,7 @@ class App extends Component{
     fetch('https://coronaindi.herokuapp.com/flask/time')
     .then(response => response.json())
     .then(users => this.setState({ times: users}))
+    // fetch('https://coronaindi.herokuapp.com/flask/runner')
 
   }
 
@@ -103,7 +104,9 @@ class App extends Component{
     })
 
     if(!data.length){
-      return <h1>Loading...</h1>
+      return <div><h1>Creative Solution is Loading...</h1>
+      <h3>Note: It might take few seconds to load but be patient!!!</h3>
+      </div>
     }else{
     return (
       <div className="Jumbotron">
