@@ -39,7 +39,7 @@ class App extends Component{
     fetch('https://coronaindi.herokuapp.com/flask/time')
     .then(response => response.json())
     .then(users => this.setState({ times: users}))
-    // fetch('https://coronaindi.herokuapp.com/flask/runner')
+    fetch('https://coronaindi.herokuapp.com/flask/runner')
 
   }
 
