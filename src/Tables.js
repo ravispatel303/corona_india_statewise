@@ -62,7 +62,7 @@ class Tables extends Component{
 				<thead><tr>{this.getHeader()}</tr></thead>
 				<tbody>{this.getRows()}</tbody>
 				</Table>
-				<div><h5>#Nagaland Patient shifted to Assam</h5></div>
+				//<div><h5>#Nagaland Patient shifted to Assam</h5></div>
 			</div> 
 		)
 	}
