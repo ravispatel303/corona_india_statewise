@@ -40,7 +40,7 @@ class App extends Component{
     .then(response => response.json())
     .then(users => this.setState({ times: users}))
     fetch('https://coronaindi.herokuapp.com/flask/runner')
-
+    console.log('ddd')
   }
 
   onSearchChange = (event) => {
