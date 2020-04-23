@@ -62,7 +62,6 @@ class Tables extends Component{
 				<thead><tr>{this.getHeader()}</tr></thead>
 				<tbody>{this.getRows()}</tbody>
 				</Table>
-				<div><h5>#One case of Jharkhand reassigned to Bihar after reconciliation</h5></div>
 			</div> 
 		)
 	}
