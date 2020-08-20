@@ -113,9 +113,13 @@ class App extends Component{
         <Headers searchChange={this.onSearchChange}/>
         <Scroll>     
         <Container className='py-5'>
+          <Alert key='time' variant='danger'>
+            Thank you for taking time to visit the website.<br></br>
+            Unfortunately, this website is No Longer In Use !!! <span role="img" aria-label="pleading-face">🥺</span>
+          </Alert>
           <Alert key='time' variant='info'>
-      Last Updated on: { this.state.times.time } GMT+5:30
-    </Alert>
+            Last Updated on: { this.state.times.time } GMT+5:30
+          </Alert>
         <ErrorBoundry>
          <Tables data={filteredRobots} sortBy={this.sortBy}/>
         </ErrorBoundry>
